@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class FetchDataComponent {
 
+  constructor() {
+
+  }
+  private getSomethingDone = (event: any) => {
+    console.log("get to know you");
+  };
 }

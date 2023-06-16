@@ -8,6 +8,7 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatIconModule} from "@angular/material/icon";
+import {MatTableModule} from "@angular/material/table";
 
 @NgModule({
   declarations: [
@@ -15,13 +16,14 @@ import {MatIconModule} from "@angular/material/icon";
     HomeComponent,
     FetchDataComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NoopAnimationsModule,
-    MatCheckboxModule,
-    MatIconModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        NoopAnimationsModule,
+        MatCheckboxModule,
+        MatIconModule,
+        MatTableModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
